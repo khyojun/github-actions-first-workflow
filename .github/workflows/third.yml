@@ -1,0 +1,9 @@
+name: Issue commented
+on:
+  issue_comment:
+    types: [created]
+jobs:
+  echo:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo 'Issue comment update'
