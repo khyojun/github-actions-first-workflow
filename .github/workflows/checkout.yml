@@ -8,5 +8,5 @@ jobs:
         with:
           repository: khyojun/cs-study
           ref: khyojun
-      - run: ls
+      - run: ls-al
 
