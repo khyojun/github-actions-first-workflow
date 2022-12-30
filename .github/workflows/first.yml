@@ -1,1 +1,2 @@
 name: OUR FIrst Workflow
+on: push
