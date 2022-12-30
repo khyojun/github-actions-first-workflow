@@ -1,2 +1,7 @@
 name: OUR FIrst Workflow
 on: push
+jobs:
+  echo:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo 'Hello, GitHub Actions!'
