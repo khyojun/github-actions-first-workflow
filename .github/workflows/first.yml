@@ -1,5 +1,6 @@
 name: OUR FIrst Workflow
-on: push
+on:
+  push
 jobs:
   echo:
     runs-on: ubuntu-latest
